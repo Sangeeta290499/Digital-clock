@@ -1,0 +1,38 @@
+.container{
+    min-height:800px;
+    position:relative;
+    display:flex;
+   
+
+}
+
+#clock{
+    text-align: center;
+    font-size: 55px;
+    background: linear-gradient(45deg, #9c27b0, #31d5eb);
+    color:#fff;
+    min-width: 350px;
+    padding:10px;
+    border-radius: 10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.container h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500px;
+    color: black;
+    width:100%;
+    margin-top:350px;
+
+
+    /* text-align: center;
+    font-size: 35px;
+    bottom:50%;
+    justify-content:center;
+    vertical-align: 50%; */
+
+}
